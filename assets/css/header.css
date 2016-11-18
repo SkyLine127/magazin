@@ -1,0 +1,207 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url("../font/Roboto-Thin.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'Popins';
+  src: url("../font/Poppins-Light.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'Clock';
+  src: url("../font/alarm-clock.ttf") format("ttf"); }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../font/OpenSans-Regular.ttf") format("ttf"); }
+
+.navbar-default .navbar-right li a {
+  color: #444444; }
+
+body {
+  min-height: 1000px; }
+
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #f0f0f0;
+  height: 40px; }
+  .navbar .container-fluid {
+    padding-right: 75px;
+    padding-left: 75px; }
+
+.container {
+  border: white; }
+
+.c-form-control {
+  border-top: 2px solid #FED700 !important;
+  border-left: 2px solid #FED700 !important;
+  border-bottom: 2px solid #FED700 !important;
+  border-right: none;
+  border-radius: 30px 0px 0px 30px;
+  margin-right: -5px;
+  box-shadow: none !important;
+  height: 64px;
+  padding-left: 30px;
+  font-size: 19px !important;
+  width: 75%; }
+
+.c-search {
+  width: 75%; }
+
+.c-btn-search {
+  border-top: 2px solid #FED700 !important;
+  border-right: 2px solid #FED700 !important;
+  border-bottom: 2px solid #FED700 !important;
+  border-left: none; }
+
+.c-btn {
+  padding: 6.5px 12px;
+  border-radius: 0px 30px 30px 0px;
+  background-color: #FED700;
+  height: 64px;
+  border: none;
+  outline: none !important; }
+  .c-btn:hover, .c-btn:focus, .c-btn:active {
+    background-color: #f9d300 !important;
+    color: white;
+    border: none; }
+
+.c-fa-search {
+  color: white !important;
+  padding-right: 25px;
+  margin-left: 16px;
+  font-size: 22px;
+  color: #848484; }
+
+.c-cart {
+  font-size: 33px;
+  padding-top: 10px;
+  color: #4f4f4f; }
+
+.logo {
+  margin-top: -15px;
+  padding-left: 60px; }
+
+.shop-cart {
+  color: #4f4f4f;
+  display: inline-block;
+  width: 90px;
+  line-height: 1;
+  padding-left: 5px; }
+
+.cart {
+  display: inline-block; }
+
+.badge {
+  margin-left: 15px;
+  padding: 1px 10px 1px 10px;
+  background: #FED700; }
+
+.c-col-md-3 {
+  padding-top: 5px; }
+
+.pref {
+  display: inline-block; }
+
+.left-menu-header {
+  background: #FED700;
+  height: 50px;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  text-align: center; }
+
+.all-dep {
+  font-size: 18px;
+  color: #4f4f4f;
+  padding-top: 13px;
+  text-align: center; }
+
+a {
+  font-family: Roboto;
+  color: #4f4f4f; }
+  a:hover {
+    color: red;
+    text-decoration: none; }
+
+.menu-banner {
+  background: gray;
+  /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #dddbdb, #fff);
+  min-height: 370px; }
+
+.top-wrapper {
+  margin-top: 30px; }
+
+.align-right {
+  float: right; }
+
+.top-menu-items {
+  color: #4f4f4f;
+  font-weight: bold; }
+
+.c-nav-pills li a {
+  border-radius: 0px !important;
+  border-bottom: 1px solid #a7a7a7;
+  color: #4f4f4f; }
+
+.c-nav-pills li {
+  width: 90%;
+  margin: auto !important; }
+
+.menu-bg {
+  background: white;
+  min-height: 360px;
+  border-radius: 0px 0px 10px 10px; }
+
+.center-menu {
+  font-size: 18px;
+  color: #4f4f4f !important;
+  padding-top: 13px;
+  /*margin-top: -50px;*/
+  padding-bottom: 25px; }
+  .center-menu a {
+    color: #4f4f4f !important; }
+  .center-menu:hover {
+    color: #FED700 !important;
+    text-decoration: none; }
+
+.open > .dropdown-menu {
+  display: block;
+  margin-left: 250px;
+  margin-top: -40px;
+  border-radius: 0px; }
+
+.open > .dropdown-menu > li > a {
+  border-bottom: none !important; }
+
+.top-wrapper {
+  padding-top: 30px; }
+
+.c-banner {
+  height: 360px; }
+
+.carousel {
+  height: 360px; }
+
+.c-carousel-control {
+  height: 360px !important;
+  opacity: 0.1; }
+  .c-carousel-control:hover {
+    opacity: 0.4; }
+
+.carousel-indicators .active {
+  background-color: #FED700;
+  width: 30px; }
+
+.buy-now {
+  background: #FED700;
+  height: 50px;
+  width: 200px;
+  margin-left: -430px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-family: 'Roboto'; }
+  .buy-now:hover, .buy-now:focus, .buy-now:active {
+    background-color: #f9d300 !important;
+    color: #f2f2f2 !important;
+    border: none;
+    outline: none; }
